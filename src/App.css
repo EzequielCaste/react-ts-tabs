@@ -99,9 +99,9 @@ h2 {
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 0.5em;
-  padding: 0.6em 1.5em;
+  padding: 0.6em 2em;
   text-transform: uppercase;
   box-shadow: 0 0 5px 1px black;
   transition: all ease-in-out 300ms;
@@ -109,4 +109,37 @@ h2 {
 .more-info:hover {
   background-color: var(--secundary);
   color: black;
+}
+footer {
+  width: 95vw;
+  font-size: 0.85rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0;
+}
+footer a {
+  margin: 0 4px;
+}
+a,
+a:visited {
+  font-weight: 600;
+  color: var(--primary);
+}
+a:hover {
+  color: var(--primary);
+}
+@media screen and (min-width: 700px) {
+  .container {
+    max-width: 650px;
+  }
+  .tabs-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+  }
+  .content-tabs {
+    padding: 0;
+  }
 }

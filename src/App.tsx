@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
+import {Footer} from './footer';
 
 import tabContent from './tab-content.json';
 
@@ -55,6 +56,7 @@ function App() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
